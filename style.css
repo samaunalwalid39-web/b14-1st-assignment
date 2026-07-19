@@ -11,9 +11,16 @@
     border-radius: 8px;
     cursor: pointer;
 }
+html{
+    background-color: rgb(19, 18, 18);
+}
 
 
-body {
+body { 
+    background-color:white;
+    max-width: 1551px;
+    margin: auto;
+
     .navbar {
         display: flex;
         justify-content: space-between;
@@ -21,6 +28,8 @@ body {
         margin: auto;
         padding: 20px 0;
     }
+     
+    
 
     ul {
         display: flex;
@@ -41,7 +50,7 @@ body {
         position: relative;
     }
 
-    
+
 
     .hero-container h1 {
         padding: 136px 253px 16px 340px;
@@ -66,7 +75,7 @@ body {
         justify-items: center;
     }
 
-   
+
 
     .spkr-sctn {
         display: grid;
@@ -164,7 +173,7 @@ body {
 
     .pricing-card li::marker {
         color: #60a5fa
-     }
+    }
 
     .featured {
         background: #0d1b2aFF;
@@ -224,14 +233,11 @@ body {
 
     .team-pricing-card ul li::marker {
         color: #60a5fa
-        
     }
 
     .pricing-heading {
         text-align: center;
         padding: 80px 0;
-        /* margin-bottom: 80px; */
-
     }
 
     .pricing-card .team-pricing-card {
@@ -261,64 +267,96 @@ body {
     }
 
 
+  
+  /* .why-attend{
+    max-width: 1200px;
+    align-items: center;
+  } */
 
 
-    .feature-cards{
+    .feature-cards {
         display: flex;
         justify-content: center;
-        /* align-items: center;
-        text-align: center; */
         gap: 35px;
-        
+
     }
 
 
 
-    .feature-card-container{
+    .feature-card-container {
         width: 370.66px;
         height: 300px;
         padding: 32px;
         border: 1px solid #e5e7ebFF;
         border-radius: 12px;
         background: rgb(235, 234, 234);
-       display: flex;
-       flex-direction: column;  
+        display: flex;
+        flex-direction: column;
     }
 
-.feature-card-container h4{
-    font-family: "inter";
-    font-size: 20px;
-    padding: 10px;
-    font-weight: bold;
-    text-align: center;
+    .feature-card-container h4 {
+        font-family: "inter";
+        font-size: 20px;
+        padding: 10px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .feature-card-container p {
+        text-align: center;
+        font-family: "inter";
+        font-size: 15px;
+        padding: 8px;
+        font-weight: 500;
+        margin-top: 80px;
+    }
+
+
+    .feature-card-container a {
+        text-decoration: none;
+        margin-top: auto;
+        align-self: center;
+    }
+
+
+    .feature-cards-heading {
+        text-align: center;
+        margin-top: 120px;
+        margin-bottom: 50px;
+    }
+
+
+footer{
+    margin-top: 10px;
+    background-color: #0D1B2A;
+    color: #f8f9fb;
 }
 
-.feature-card-container p{
-    text-align: center;
-    font-family: "inter";
-    font-size: 15px;
-    padding: 8px;
-    font-weight: 500;
-    margin-top: 80px;
-}
-  
-
-.feature-card-container a{
-   text-decoration: none;
-   margin-top: auto;
-   align-self: center;
-}
-
-
-.feature-cards-heading{
-   text-align: center;
-  margin-top: 120px;
-  margin-bottom: 50px;
-}
 
 
 
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px 0;
+    }
 
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px 0;
+    }
 
+    .footer-corner{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+   
 
 }
